@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Left Image */
+.hero img {
+  width: 70%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Right Content Box */
+.hero-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #fff; /* White background just like your screenshot */
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Red Button */
+.hero-content a {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero-content a:hover {
+  background-color: darkred;
+}
